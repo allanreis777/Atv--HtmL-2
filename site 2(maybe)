@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #070712;
+        }
+
+        .header {
+            background-image: url('c:\Users\aadrs\Downloads\CEU.jpg');
+            background-size: cover;
+            color: rgb(100, 70, 165);
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #2310b0;
+            color: rgb(9, 5, 17);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .card {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Bem-vindo à Nossa Plataforma de Cursos</h1>
+        <p>Aprenda novas habilidades e avance na sua carreira!</p>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulário de Inscrição</h5>
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" id="sobrenome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="endereco">Endereço Completo</label>
+                                <input type="text" class="form-control" id="endereco" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cep">CEP</label>
+                                <input type="text" class="form-control" id="cep" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="usuario">Usuário</label>
+                                <input type="text" class="form-control" id="usuario" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input type="password" class="form-control" id="senha" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="curso">Curso</label>
+                                <select class="form-control" id="curso" required>
+                                    <option value="">Selecione um curso</option>
+                                    <option value="curso1">Curso 1</option>
+                                    <option value="curso2">Curso 2</option>
+                                    <option value="curso3">Curso 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="estado">Estado</label>
+                                <input type="text" class="form-control" id="estado" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pais">País</label>
+                                <input type="text" class="form-control" id="pais" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pagamento">Forma de Pagamento</label>
+                                <select class="form-control" id="pagamento" required>
+                                    <option value="">Selecione uma forma de pagamento</option>
+                                    <option value="cartao">Cartão de Crédito</option>
+                                    <option value="boleto">Boleto</option>
+                                    <option value="paypal">PayPal</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="idade">Idade</label>
+                                <input type="number" class="form-control" id="idade" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Nossa Plataforma de Cursos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
